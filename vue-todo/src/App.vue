@@ -1,13 +1,22 @@
 <template>
   <div id="app" class="container">
     <img src="./assets/logo.png" class="logo">
+    <todo-list></todo-list>
     <router-view/>
   </div>
 </template>
 
 <script>
+
+import HelloWorld from './components/HelloWorld.vue';
+import TodoList from './components/TodoList.vue';
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    HelloWorld,
+    TodoList,
+  }
 }
 </script>
 
