@@ -11,3 +11,6 @@ https://vueschool.io/courses/vue-router-4-for-everyone?friend=vuerouter
 
 
 ### New updates
+
+To install json server: sudo npm install -g json-server
+I've tried several times to make it work. It took 1.5 hours to fix it (only the json server problem)
