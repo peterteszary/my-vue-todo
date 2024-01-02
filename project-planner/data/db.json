@@ -17,6 +17,12 @@
       "details": "This is a test for push error",
       "complete": false,
       "id": 5
+    },
+    {
+      "title": "Teszt 3",
+      "details": "This is my 3rd test.",
+      "complete": true,
+      "id": 8651
     }
   ]
 }
